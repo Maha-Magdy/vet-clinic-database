@@ -8,3 +8,4 @@ CREATE INDEX vet_id_asc ON visits(vet_id ASC);
 
 SELECT * FROM owners where email = 'owner_18327@mail.com';
 -- to optimize the time execuation and performance for the last query we used the follwing query
+CREATE INDEX email_asc ON owners(email ASC);
